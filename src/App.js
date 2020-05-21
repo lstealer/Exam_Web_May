@@ -89,7 +89,7 @@ class App extends React.Component {
                                                 <td>{record.price}</td>
                                                 <td>
                                                     <Button  onClick={this.updateRecord.bind(this,record)} variant="dark">
-                                                        Update
+                                                        Click
                                                     </Button>
                                                 </td>
                                             </tr>
